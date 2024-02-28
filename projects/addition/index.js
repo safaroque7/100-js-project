@@ -1,12 +1,14 @@
-let valueOne = parseInt(document.getElementById("valueOne").value);
-let valueTwo = parseInt(document.getElementById("valueTwo").value);
-let getResultButton = document.getElementById("getResultButton");
-let showAdditionResult = document.getElementById("showAdditionResult");
+let valueOne = document.getElementById("value-one");
+    valueTwo = document.getElementById("value-two");
+
+    getResultButton = document.getElementById("get-result-button");
+    showAdditionResult = document.getElementById("show-addition-result");
 
 
-function getAdditionResult() {
-    let totalResult = valueOne + valueTwo;
+getResultButton.addEventListener("click", function () {
+    let valueOneInt = parseInt(valueOne.value);
+        valueTwoInt = parseInt(valueTwo.value);
+
+    totalResult = valueOneInt + valueTwoInt;
     showAdditionResult.innerHTML = totalResult;
-}
-
-additionResult.addEventListener("click", getAdditionResult());
+});

@@ -57,30 +57,25 @@
 
                 <div class="mb-md-4 mb-3">
                     <label for="ValueOne" class="mb-md-2 mb-1"> Value One </label>
-                    <input type="number" name="ValueOne" id="ValueOne" class="form-control">
+                    <input type="number" name="ValueOne" id="value-one" class="form-control">
                 </div>
 
                 <div class="mb-md-4 mb-3">
-                    <label for="ValueTwo" class="mb-md-2 mb-1"> Value Two </label>
-                    <input type="number" name="ValueTwo" id="ValueTwo" class="form-control">
+                    <label for="value-two" class="mb-md-2 mb-1"> Value Two </label>
+                    <input type="number" name="value-two" id="value-two" class="form-control">
                 </div>
 
                 <div class="mb-md-4 mb-3">
-                    <label for="getResultButton" class="mb-md-2 mb-1"> </label>
-                    <button name="getResultButton" id="getResultButton" class="btn bg-100-js-project bg-100-js-project-hover"> Submit </button>
+                    <label for="get-result-button" class="mb-md-2 mb-1"> </label>
+                    <button name="get-result-button" id="get-result-button"
+                        class="btn bg-100-js-project bg-100-js-project-hover"> Submit </button>
                 </div>
-                <h4 class="mb-0"> Total : <span id="showAdditionResult"></span>  </h4>
+                <h4 class="mb-0"> Total : <span id="show-addition-result"></span> </h4>
 
             </div>
         </div>
     </div>
     <!-- main body end -->
-
-
-
-
-
-
 
 
 
@@ -131,8 +126,12 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
 
-    <script src="../assests/js/index.js"></script>
-    <script src="../projects/addition/index.js"></script>
+    <script src="index.js"></script>
+    <script>
+        let d = new Date();
+        fullYear = d.getFullYear();
+        document.getElementById("getYear").innerHTML = fullYear;
+    </script>
 </body>
 
 </html>
