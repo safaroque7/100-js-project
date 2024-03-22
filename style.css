@@ -52,3 +52,12 @@
 .bg-100-js-project-hover{
     transition: all 0.5s ease;
 }
+
+
+.digit-design {
+    background: red;
+    color: white;
+    padding: 10px;
+    margin-right: 20px;
+    font-size: 140px;
+}
