@@ -33,4 +33,24 @@ setInterval(function () {
   document.getElementById("minute").innerHTML = minutes;
   document.getElementById("seconds").innerHTML = seconds;
   document.getElementById("session").innerHTML = session;
+
+
+  // fot bangla digit
+
+  function englishToBanglaDigits (text){
+    const englishDigits = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'PM', 'AM'];
+    const banglaDigits = ['০', '১', '২', '৩', '৪', '৫', '৬', '৭', '৮', '৯', 'পিএম', 'এএম'];
+
+    for(let i = 0; i < englishDigits.length; i++ ){
+      const regx = new RegExp(englishDigits[i], 'g');
+      text = text.replace(regx, banglaDigits[i]);
+    }
+    return text;
+  }
+
+  const englishText = document.getElementById("bangla-digits-show").innerHTML;
+  const banglaText = englishToBanglaDigits(englishText);
+
+  document.getElementById("bangla-digits-show").innerHTML = banglaText;
+
 }, 1000);
