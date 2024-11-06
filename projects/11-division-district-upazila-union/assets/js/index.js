@@ -1,30 +1,270 @@
 var divisionDistrictUpazilaUnion = {
+
+    // division start
     Dhaka: {
-        "Dhaka": ["Dhaka Upazile", "Savar Upazila"],
-        "Narayanganj": ["Narayanganj Sadar Upazila", "Rupganj Upazila"],
+
+        // district start
+        "Dhaka": {
+            //Upazila start
+            Savar: {},
+            //Upazila start
+            Dhamrai: {},
+            //Upazila start
+            Keraniganj: {},
+            //Upazila start
+            Nawabganj: {},
+            //Upazila start
+            Dohar: []
+        },
+
+        // district start
+        "Narayanganj": {
+            //Upazila start
+            Araihazar: {},
+            //Upazila start
+            Araihazar: {},
+            //Upazila start
+            Bandar: {},
+            //Upazila start
+            Narayanganjsadar: {},
+            //Upazila start
+            Rupganj: {},
+            //Upazila start
+            Sonargaon: {},
+        },
+
+        // district start
+        "Narsingdi": {
+            //Upazila start
+            Belabo: {},
+            //Upazila start
+            Monohardi: {},
+            //Upazila start
+            Narsingdisadar: {},
+            //Upazila start
+            Palash: {},
+            //Upazila start
+            Raipura: {},
+            //Upazila start
+            Shibpur: {},
+        },
+
+        // district start
+        "Gazipur": {
+            //Upazila start
+            Kaliganj: {},
+            //Upazila start
+            Kaliakair: {},
+            //Upazila start
+            Kapasia: {},
+            //Upazila start
+            Sadar: {},
+            //Upazila start
+            Sreepur: {},
+        },
+        // district start
+        "Shariatpur": {
+
+            //Upazila start
+            Sadar: {},
+            //Upazila start
+            Naria: {},
+            //Upazila start
+            Zajira: {},
+            //Upazila start
+            Gosairhat: {},
+            //Upazila start
+            Bhedarganj: {},
+            //Upazila start
+            Damudya: {},
+        },
+        // district start
+        "Tangail": {
+            //Upazila start
+            Basail: {},
+            //Upazila start
+            Bhuapur: {},
+            //Upazila start
+            Delduar: {},
+            //Upazila start
+            Ghatail: {},
+            //Upazila start
+            Gopalpur: {},
+            //Upazila start
+            Madhupur: {},
+            //Upazila start
+            Mirzapur: {},
+            //Upazila start
+            Nagarpur: {},
+            //Upazila start
+            Sakhipur: {},
+            //Upazila start
+            Tangailsadar: {},
+            //Upazila start
+            Kalihati: {},
+            //Upazila start
+            Dhanbari: {},
+        },
+        // district start
+        "Kishoreganj": {},
+        // district start
+        "Manikganj": {},
+        // district start
+        "Munshiganj": {},
+        // district start
+        "Rajbari": {},
+        // district start
+        "Madaripur": {},
+        // district start
+        "Gopalganj": {},
+        // district start
+        "Faridpur": {},
     },
-    Chittagong: {
-        "Chittagong Distrcit": ["Chittagong Sadar Upazila", "Satkania Upazila"],
-        "Brahmanbaria": ["Brahmanbaria Sardar Upazila", "Sarail Upazila", "kasbaria Upazila", "Bancharampur Upazila"],
+
+    // division start
+    Chattogram: {
+        // district start
+        "Chattogram": {},
+        // district start
+        "Cumilla": {},
+        // district start
+        "Feni": {},
+        // district start
+        "Brahmanbaria": {},
+        // district start
+        "Rangamati": {},
+        // district start
+        "Noakhali": {},
+        // district start
+        "Chandpur": {},
+        // district start
+        "Chandpur": {},
+        // district start
+        "Coxsbazar": {},
+        // district start
+        "Khagrachhari": {},
+        // district start
+        "Bandarban": {},
     },
+
+    // division start
+    Rajshahi: {
+        // district start
+        "Sirajganj": {},
+        // district start
+        "Pabna": {},
+        // district start
+        "Bogura": {},
+        // district start
+        "Rajshahi": {},
+        // district start
+        "Natore": {},
+        // district start
+        "Joypurhat": {},
+        // district start
+        "Chapainawabganj": {},
+        // district start
+        "Naogaon": {},
+    },
+
+    // division start
+    Khulna: {
+        // district start
+        "Jashore": {},
+        // district start
+        "Satkhira": {},
+        // district start
+        "Meherpur": {},
+        // district start
+        "Narail": {},
+        // district start
+        "Chuadanga": {},
+        // district start
+        "Kushtia": {},
+        // district start
+        "Magura": {},
+        // district start
+        "Khulna": {},
+        // district start
+        "Bagerhat": {},
+        // district start
+        "Jhenaidah": {},
+    },
+
+    // division start
+    Barishal: {
+        // district start
+        "Jhalakathi": {},
+        // district start
+        "Patuakhali": {},
+        // district start
+        "Pirojpur": {},
+        // district start
+        "Barishal": {},
+        // district start
+        "Bhola": {},
+        // district start
+        "Barguna": {},
+    },
+
+    // division start
     Sylhet: {
-        "Sylhet Distrcit": ["Habiganj Upazila", "Madabpur Upazila"],
-        "Chatok District": ["Chatok Sardar Upazila", "Tila Upazila"],
+        // district start
+        "Sylhet": {},
+        // district start
+        "Moulvibazar": {},
+        // district start
+        "Habiganj": {},
+        // district start
+        "Sunamganj": {},
     },
+    // division start
+    Rangpur: {
+        // district start
+        "Panchagarh": {},
+        // district start
+        "Dinajpur": {},
+        // district start
+        "Lalmonirhat": {},
+        // district start
+        "Nilphamari": {},
+        // district start
+        "Gaibandha": {},
+        // district start
+        "Thakurgaon": {},
+        // district start
+        "Rangpur": {},
+        // district start
+        "Kurigram": {},
+    },
+
+    // division start
+    Mymensingh: {
+        // district start
+        "Sherpur": {},
+        // district start
+        "Mymensingh": {},
+        // district start
+        "Jamalpur": {},
+        // district start
+        "Netrokona": {},
+    },
+
 }
+
 
 window.onload = function () {
 
     const selectDivision = document.getElementById("division");
     selectDistrict = document.getElementById("district");
-    selectUpazile = document.getElementById("upazile");
-    selectUnion = document.getElementById("union");
+    selectUpazila = document.getElementById("upazile");
+    // selectUnion = document.getElementById("union");
 
     selects = document.querySelectorAll("select");
 
     selectDistrict.disabled = true;
-    selectUpazile.disabled = true;
-    selectUnion.disabled = true;
+    selectUpazila.disabled = true;
+    // selectUnion.disabled = true;
 
     selects.forEach(select => {
         if (select.disabled == true) {
@@ -50,11 +290,11 @@ window.onload = function () {
     // *************************************************** for district start ************************************************
     selectDivision.onchange = (e) => {
         selectDistrict.disabled = false;
-        selectUnion.disabled = true;
+        // selectUnion.disabled = true;
 
         // I have to study below code ************************************************************** STUDY ************************************************
         selectDistrict.length = 1
-        selectUpazile.length = 1
+        selectUpazila.length = 1
         // I have to study below code ************************************************************** STUDY ************************************************
 
         for (let district in divisionDistrictUpazilaUnion[e.target.value]) {
@@ -67,27 +307,23 @@ window.onload = function () {
 
     // *************************************************** for upazila start ************************************************
     selectDistrict.onchange = (e) => {
-        selectUpazile.disabled = false;
-        selectUnion.disabled = true;
+        selectUpazila.disabled = false;
+        // selectUnion.disabled = true;
 
         // I have to study below code ************************************************************** STUDY ************************************************
-        selectUpazile.length = 1
-        selectUnion.length = 1
+        selectUpazila.length = 1
+        // selectUnion.length = 1
         // I have to study below code ************************************************************** STUDY ************************************************
 
-
-        for (let upazila in divisionDistrictUpazilaUnion[e.target.value]) {
-            console.log(upazila);
-            selectUpazile.options[selectUpazile.options.length] = new Option(upazila, upazila);
-        }
-
-        // let upazilas = divisionDistrictUpazilaUnion[selectDivision.value][selectDistrict.value][e.target.value];
-
-        // for(let i=0; i<upazilas.lenght; i++){
-        //     selectUpazile.options[selectUpazile.options.length] = new Option(upazilas[i], upazilas[i]);
+        // for (let upazila in divisionDistrictUpazilaUnion[selectDistrict.value][e.target.value]) {
+        //     console.log(upazila);
+        //     selectUpazila.options[selectUpazila.options.length] = new Option(upazila, upazila);
         // }
 
-        
+        for (let city in divisionDistrictUpazilaUnion[selectDivision.value][e.target.value]) {
+            // console.log(city);
+            selectUpazila.options[selectUpazila.options.length] = new Option(city, city)
+        }
     }
     // *************************************************** for upazila end ************************************************
 
@@ -98,3 +334,6 @@ window.onload = function () {
 
 // study link
 // https://www.youtube.com/watch?v=q_LGyAYXS2Q
+
+//to collect upazila's name
+//https://bangladesh.gov.bd/site/view/upazila-list/Upazilla-List
