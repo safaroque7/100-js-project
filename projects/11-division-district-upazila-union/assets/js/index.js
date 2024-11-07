@@ -2,7 +2,6 @@ var divisionDistrictUpazilaUnion = {
 
     // division start
     Dhaka: {
-
         // district start
         "Dhaka": {
             //Upazila start
@@ -16,7 +15,6 @@ var divisionDistrictUpazilaUnion = {
             //Upazila start
             Dohar: []
         },
-
         // district start
         "Narayanganj": {
             //Upazila start
@@ -32,7 +30,6 @@ var divisionDistrictUpazilaUnion = {
             //Upazila start
             Sonargaon: {},
         },
-
         // district start
         "Narsingdi": {
             //Upazila start
@@ -48,7 +45,6 @@ var divisionDistrictUpazilaUnion = {
             //Upazila start
             Shibpur: {},
         },
-
         // district start
         "Gazipur": {
             //Upazila start
@@ -231,27 +227,231 @@ var divisionDistrictUpazilaUnion = {
     // division start
     Chattogram: {
         // district start
-        "Chattogram": {},
+        "Chattogram": {
+            //Upazila start
+            Rangunia: {},
+            //Upazila start
+            Sitakunda: {},
+            //Upazila start
+            Mirsharai: {},
+            //Upazila start
+            Patiya: {},
+            //Upazila start
+            Sandwip: {},
+            //Upazila start
+            Banshkhali: {},
+            //Upazila start
+            Boalkhali: {},
+            //Upazila start
+            Anwara: {},
+            //Upazila start
+            Chandanaish: {},
+            //Upazila start
+            Satkania: {},
+            //Upazila start
+            Lohagara: {},
+            //Upazila start
+            Hathazari: {},
+            //Upazila start
+            Fatikchhari: {},
+            //Upazila start
+            Raozan: {},
+            //Upazila start
+            Karnafuli: {},
+        },
         // district start
-        "Cumilla": {},
+        "Cumilla": {
+            //Upazila start
+            Debidwar: {},
+            //Upazila start
+            Barura: {},
+            //Upazila start
+            Brahmanpara: {},
+            //Upazila start
+            Chandina: {},
+            //Upazila start
+            Chauddagram: {},
+            //Upazila start
+            Daudkandi: {},
+            //Upazila start
+            Homna: {},
+            //Upazila start
+            Laksam: {},
+            //Upazila start
+            Muradnagar: {},
+            //Upazila start
+            Nangalkot: {},
+            //Upazila start
+            Cumilla_Sadar: {},
+            //Upazila start
+            Meghna: {},
+            //Upazila start
+            Monohargonj: {},
+            //Upazila start
+            Sadarsouth: {},
+            //Upazila start
+            Titas: {},
+            //Upazila start
+            Burichang: {},
+            //Upazila start
+            Lalmai: {},
+        },
         // district start
-        "Feni": {},
+        "Feni": {
+            //Upazila start
+            Chhagalnaiya: {},
+            //Upazila start
+            Sadar: {},
+            //Upazila start
+            Sonagazi: {},
+            //Upazila start
+            Fulgazi: {},
+            //Upazila start
+            Parshuram: {},
+            //Upazila start
+            Daganbhuiyan: {},
+        },
         // district start
-        "Brahmanbaria": {},
+        "Brahmanbaria": {
+            //Upazila start
+            Sadar: {},
+            //Upazila start
+            Kasba: {},
+            //Upazila start
+            Nasirnagar: {},
+            //Upazila start
+            Sarail: {},
+            //Upazila start
+            Ashuganj: {},
+            //Upazila start
+            Akhaura: {},
+            //Upazila start
+            Nabinagar: {},
+            //Upazila start
+            Bancharampur: {},
+            //Upazila start
+            Bijoynagar: {},
+        },
         // district start
-        "Rangamati": {},
+        "Rangamati": {
+            //Upazila start
+            Sadar: {},
+            //Upazila start
+            Kaptai: {},
+            //Upazila start
+            Kawkhali: {},
+            //Upazila start
+            Baghaichari: {},
+            //Upazila start
+            Barkal: {},
+            //Upazila start
+            Langadu: {},
+            //Upazila start
+            Rajasthali: {},
+            //Upazila start
+            Belaichari: {},
+            //Upazila start
+            Juraichari: {},
+            //Upazila start
+            Naniarchar: {},
+        },
         // district start
-        "Noakhali": {},
+        "Noakhali": {
+            //Upazila start
+            Sadar: {},
+            //Upazila start
+            Companiganj: {},
+            //Upazila start
+            Begumganj: {},
+            //Upazila start
+            Hatia: {},
+            //Upazila start
+            Subarnachar: {},
+            //Upazila start
+            Kabirhat: {},
+            //Upazila start
+            Senbug: {},
+            //Upazila start
+            Chatkhil: {},
+            //Upazila start
+            Sonaimuri: {},
+        },
         // district start
-        "Chandpur": {},
+        "Chandpur": {
+            //Upazila start
+            Haimchar: {},
+            //Upazila start
+            Kachua: {},
+            //Upazila start
+            Shahrasti: {},
+            //Upazila start
+            Sadar: {},
+            //Upazila start
+            Matlabsouth: {},
+            //Upazila start
+            Hajiganj: {},
+            //Upazila start
+            Matlabnorth: {},
+            //Upazila start
+            Faridgonj: {},
+        },
         // district start
-        "Chandpur": {},
+        "Cox's-Bazar": {
+            //Upazila start
+            Sadar: {},
+            //Upazila start
+            Chakaria: {},
+            //Upazila start
+            Kutubdia: {},
+            //Upazila start
+            Ukhiya: {},
+            //Upazila start
+            Moheshkhali: {},
+            //Upazila start
+            Pekua: {},
+            //Upazila start
+            Ramu: {},
+            //Upazila start
+            Teknaf: {}
+        },
         // district start
-        "Coxsbazar": {},
+        "Khagrachhari": {
+             //Upazila start
+             Sadar: {},
+             //Upazila start
+             Dighinala: {},
+             //Upazila start
+             Panchari: {},
+             //Upazila start
+             Laxmichhari: {},
+             //Upazila start
+             Mohalchari: {},
+             //Upazila start
+             Manikchari: {},
+             //Upazila start
+             Ramgarh: {},
+             //Upazila start
+             Matiranga: {},
+             //Upazila start
+             Guimara: {},
+       },
         // district start
-        "Khagrachhari": {},
-        // district start
-        "Bandarban": {},
+        "Bandarban": {
+            //Upazila start
+            Sadar: {},
+            //Upazila start
+            Alikadam: {},
+            //Upazila start
+            Naikhongchhari: {},
+            //Upazila start
+            Rowangchhari: {},
+            //Upazila start
+            Lama: {},
+            //Upazila start
+            Ruma: {},
+            //Upazila start
+            Thanchi: {},
+        },
     },
 
     // division start
