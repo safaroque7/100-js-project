@@ -974,21 +974,145 @@ var divisionDistrictUpazilaUnion = {
     // division start
     Rangpur: {
         // district start
-        "Panchagarh": {},
+        "Panchagarh": {
+            //Upazila start
+            Panchagarhsadar:{},
+            //Upazila start
+            Debiganj:{},
+            //Upazila start
+            Boda:{},
+            //Upazila start
+            Atwari:{},
+            //Upazila start
+            Tetulia:{},
+        },
         // district start
-        "Dinajpur": {},
+        "Dinajpur": {
+            //Upazila start
+            Nawabganj:{},
+            //Upazila start
+            Birganj:{},
+            //Upazila start
+            Ghoraghat:{},
+            //Upazila start
+            Birampur:{},
+            //Upazila start
+            Parbatipur:{},
+            //Upazila start
+            Bochaganj:{},
+            //Upazila start
+            Kaharol:{},
+            //Upazila start
+            Fulbari:{},
+            //Upazila start
+            Dinajpursadar:{},
+            //Upazila start
+            Hakimpur:{},
+            //Upazila start
+            Khansama:{},
+            //Upazila start
+            Birol:{},
+            //Upazila start
+            Chirirbandar:{},
+        },
         // district start
-        "Lalmonirhat": {},
+        "Lalmonirhat": {
+            //Upazila start
+            Sadar:{},
+            //Upazila start
+            Kaliganj:{},
+            //Upazila start
+            Hatibandha:{},
+            //Upazila start
+            Patgram:{},
+            //Upazila start
+            Aditmari:{},
+        },
         // district start
-        "Nilphamari": {},
+        "Nilphamari": {
+            //Upazila start
+            Syedpur:{},
+            //Upazila start
+            Domar:{},
+            //Upazila start
+            Dimla:{},
+            //Upazila start
+            Jaldhaka:{},
+            //Upazila start
+            Kishorganj:{},
+            //Upazila start
+            Nilphamarisadar:{},
+        },
         // district start
-        "Gaibandha": {},
+        "Gaibandha": {
+            //Upazila start
+            Sadullapur:{},
+            //Upazila start
+            Gaibandhasadar:{},
+            //Upazila start
+            Palashbari:{},
+            //Upazila start
+            Saghata:{},
+            //Upazila start
+            Gobindaganj:{},
+            //Upazila start
+            Sundarganj:{},
+            //Upazila start
+            Phulchari:{},
+        },
         // district start
-        "Thakurgaon": {},
+        "Thakurgaon": {
+            //Upazila start
+            Thakurgaonsadar:{},
+            //Upazila start
+            Pirganj:{},
+            //Upazila start
+            Ranisankail:{},
+            //Upazila start
+            Haripur:{},
+            //Upazila start
+            Baliadangi:{},
+        },
         // district start
-        "Rangpur": {},
+        "Rangpur": {
+            //Upazila start
+            Rangpursadar:{},
+            //Upazila start
+            Gangachara:{},
+            //Upazila start
+            Taragonj:{},
+            //Upazila start
+            Badargonj:{},
+            //Upazila start
+            Mithapukur:{},
+            //Upazila start
+            Pirgonj:{},
+            //Upazila start
+            Kaunia:{},
+            //Upazila start
+            Pirgacha:{},
+        },
         // district start
-        "Kurigram": {},
+        "Kurigram": {
+            //Upazila start
+            Kurigramsadar:{},
+            //Upazila start
+            Nageshwari:{},
+            //Upazila start
+            Bhurungamari:{},
+            //Upazila start
+            Phulbari:{},
+            //Upazila start
+            Rajarhat:{},
+            //Upazila start
+            Ulipur:{},
+            //Upazila start
+            Chilmari:{},
+            //Upazila start
+            Rowmari:{},
+            //Upazila start
+            Charrajibpur:{},
+        },
     },
 
     // division start
