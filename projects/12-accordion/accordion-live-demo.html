@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="stylesheet" href="../../style.css" />
+  <style>
+    .odd {
+      background: red;
+      color: white;
+      padding: 5px 10px;
+      margin: 10px 0;
+    }
+
+    .even {
+      background: green;
+      color: white;
+      padding: 5px 10px;
+      margin: 10px 0;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- header Start -->
+  <div class="container-fluid bg-100-js-project py-3">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col">
+          <a href="../../index.html">
+            <img src="../../assests/images/main-logo.png" alt="main-menu" />
+          </a>
+        </div>
+        <div class="col">
+          <div class="main-menu-100">
+            <ul>
+              <li><a href="../../index.html"> Home </a></li>
+              <li><a href="about-us.html"> About US </a></li>
+              <li><a href="../../index.html"> All Projects </a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- header end -->
+
+  <!-- main body start -->
+  <div class="container-fluid py-3">
+    <div class="container">
+
+
+
+      <style>
+        div#accordion {
+          width: 500px;
+          margin: auto;
+        }
+  
+        .title_sign {
+          display: flex;
+          justify-content: space-between;
+        }
+  
+        .header {
+          border: 1px solid #000;
+          padding: 10px;
+          background: #999;
+        }
+  
+        .title_sign {
+          background: green;
+          color: #fff;
+          padding: 0 10px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          cursor: pointer;
+        }
+  
+        .minus-sign,
+        .content,
+        .display-none {
+          display: none;
+        }
+        .display-block {
+          display: block;
+        }
+  
+        .red-class {
+          background: red;
+        }
+  
+        .minus {
+          font-size: 54px;
+          font-weight: bold;
+        }
+  
+        .stickyClass{
+          position: fixed;
+          transition: all 0.5s;
+          margin-top: 0;
+        }
+      </style>
+
+
+
+
+      <div id="accordion">
+        <!-- header start 1 -->
+        <div class="header">
+          <div class="title_sign">
+            <div class="title"><h3>lesson 1</h3></div>
+            <div class="sign">
+              <span class="plus-sign"> + </span>
+              <span class="minus-sign"> - </span>
+            </div>
+          </div>
+          <div class="content">
+            <p>
+              Lesson 1, Lesson 1, Lesson 1, Lesson 1, Lesson 1, Lesson 1, Lesson
+              1, Lesson 1, Lesson 1, Lesson 1, Lesson 1, Lesson 1, Lesson 1,
+              Lesson 1, Lesson 1, Lesson 1, Lesson 1, Lesson 1, Lesson 1, Lesson
+              1, Lesson 1, Lesson 1, Lesson 1, Lesson 1, Lesson 1, Lesson 1,
+              Lesson 1, Lesson 1, Lesson 1, Lesson 1, Lesson 1, Lesson 1, Lesson
+              1, Lesson 1, Lesson 1, Lesson 1, Lesson 1, Lesson 1, Lesson 1,
+              Lesson 1, Lesson 1, Lesson 1, Lesson 1, Lesson 1, Lesson 1, Lesson
+              1, Lesson 1, Lesson 1, Lesson 1, Lesson 1, Lesson 1, Lesson 1,
+              Lesson 1, Lesson 1, Lesson 1, Lesson 1, Lesson 1, Lesson 1, Lesson
+              1, Lesson 1, Lesson 1, Lesson 1, Lesson 1, Lesson 1, Lesson 1,
+              Lesson 1, Lesson 1, Lesson 1, Lesson 1, Lesson 1, Lesson 1, Lesson
+              1,
+            </p>
+          </div>
+        </div>
+        <!-- header end 1 -->
+  
+        <!-- header start 2 -->
+        <div class="header">
+          <div class="title_sign">
+            <div class="title"><h3>lesson 2</h3></div>
+            <div class="sign">
+              <span class="plus-sign"> + </span>
+              <span class="minus-sign"> - </span>
+            </div>
+          </div>
+          <div class="content">
+            <p>
+              Lesson 2, Lesson 2, Lesson 2, Lesson 2, Lesson 2, Lesson 2, Lesson
+              2, Lesson 2, Lesson 2, Lesson 2, Lesson 2, Lesson 2, Lesson 2,
+              Lesson 2, Lesson 2, Lesson 2, Lesson 2, Lesson 2, Lesson 2, Lesson
+              2, Lesson 2, Lesson 2, Lesson 2, Lesson 2, Lesson 2, Lesson 2,
+              Lesson 2, Lesson 2, Lesson 2, Lesson 2, Lesson 2, Lesson 2, Lesson
+              2, Lesson 2, Lesson 2, Lesson 2, Lesson 2, Lesson 2, Lesson 2,
+              Lesson 2, Lesson 2, Lesson 2, Lesson 2, Lesson 2, Lesson 2, Lesson
+              2, Lesson 2, Lesson 2, Lesson 2, Lesson 2, Lesson 2, Lesson 2,
+              Lesson 2, Lesson 2, Lesson 2, Lesson 2, Lesson 2, Lesson 2, Lesson
+              2, Lesson 2
+            </p>
+          </div>
+        </div>
+        <!-- header end 2 -->
+  
+        <!-- header start 3 -->
+        <div class="header">
+          <div class="title_sign">
+            <div class="title"><h3>lesson 3</h3></div>
+            <div class="sign">
+              <span class="plus-sign"> + </span>
+              <span class="minus-sign"> - </span>
+            </div>
+          </div>
+          <div class="content">
+            <p>
+              Lesson 3, Lesson 3, Lesson 3, Lesson 3, Lesson 3, Lesson 3, Lesson
+              3, Lesson 3, Lesson 3, Lesson 3, Lesson 3, Lesson 3, Lesson 3,
+              Lesson 3, Lesson 3, Lesson 3, Lesson 3, Lesson 3, Lesson 3, Lesson
+              3, Lesson 3, Lesson 3, Lesson 3, Lesson 3, Lesson 3, Lesson 3,
+              Lesson 3, Lesson 3, Lesson 3, Lesson 3, Lesson 3, Lesson 3, Lesson
+              3, Lesson 3, Lesson 3, Lesson 3, Lesson 3, Lesson 3, Lesson 3,
+              Lesson 3, Lesson 3, Lesson 3, Lesson 3, Lesson 3, Lesson 3, Lesson
+              3, Lesson 3, Lesson 3, Lesson 3, Lesson 3, Lesson 3, Lesson 3,
+              Lesson 3, Lesson 3, Lesson 3, Lesson 3, Lesson 3
+            </p>
+          </div>
+        </div>
+        <!-- header end -->
+      </div>
+
+
+
+
+      
+    </div>
+  </div>
+  </div>
+  <!-- main body end -->
+
+  <!-- footer Start -->
+  <div class="container-fluid bg-100-js-project py-md-3 py-1">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="social-media-links">
+            <ul>
+              <li>
+                <a href="https://facebook.com/faroque.computer" target="_blank" class="text-dark">
+                  Facebook
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/@faroque001" target="_blank" class="text-dark">
+                  Youtube
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col">
+          <p class="mb-0">
+            &copy; <span id="getYear"></span> 100 JS Projects. All right
+            reserved.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- footer End -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+  <script src="assets/js/index.js"></script>
+</body>
+
+</html>

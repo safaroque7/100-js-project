@@ -1225,17 +1225,9 @@ window.onload = function () {
 
 
     // *************************************************** for division start ************************************************
-
     for (let division in divisionDistrictUpazilaUnion) {
-        console.log(division);
-
-        // I have to study below code ************************************************************** STUDY ************************************************
         selectDivision.options[selectDivision.options.length] = new Option(division, division);
-        // I have to study below code ************************************************************** STUDY ************************************************
     }
-
-    // *************************************************** for division end ************************************************
-
 
 
     // *************************************************** for district start ************************************************
@@ -1249,7 +1241,6 @@ window.onload = function () {
         // I have to study below code ************************************************************** STUDY ************************************************
 
         for (let district in divisionDistrictUpazilaUnion[e.target.value]) {
-            console.log(district);
             selectDistrict.options[selectDistrict.options.length] = new Option(district, district);
         }
     }
@@ -1272,7 +1263,6 @@ window.onload = function () {
         // }
 
         for (let city in divisionDistrictUpazilaUnion[selectDivision.value][e.target.value]) {
-            // console.log(city);
             selectUpazila.options[selectUpazila.options.length] = new Option(city, city)
         }
     }
